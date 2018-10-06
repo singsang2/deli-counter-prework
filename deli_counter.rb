@@ -7,7 +7,7 @@ def line(katz_deli)
     counter = 0
     
     while counter < katz_deli.length
-      if counter == katz_deli.length
+      if counter == katz_deli.length-1
         print "#{counter + 1}. #{katz_deli[counter]}"
         counter += 1
       else 
@@ -34,3 +34,6 @@ def take_a_number(katz_deli, name)
   katz_deli.push(name)
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
+
+
+line(["Logan", "Avi", "Spencer"])
