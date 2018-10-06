@@ -10,6 +10,10 @@ def line(katz_deli)
       if counter == katz_deli.length
         print "#{counter + 1}. #{katz_deli[counter]} "
         counter += 1
+      else 
+        print "#{counter + 1}. #{katz_deli[counter]} "
+        counter += 1
+      end
     end
     print "\n"
   else
