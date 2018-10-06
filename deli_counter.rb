@@ -8,6 +8,7 @@ def line(katz_deli)
     
     while counter < katz_deli.length
       print "#{counter + 1}. #{katz_deli[counter]}"
+      counter += 1
     end
     print "\n"
   else
