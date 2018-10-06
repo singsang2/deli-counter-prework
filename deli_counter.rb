@@ -31,4 +31,4 @@ def take_a_number(katz_deli, name)
 end
 
 
-  
+line(["Logan", "Avi", "Spencer"])
